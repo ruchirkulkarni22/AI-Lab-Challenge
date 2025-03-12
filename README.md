@@ -9,7 +9,7 @@ Many users perform daily weather checks manually to plan their day. Weather Chec
 - Extracting the current weather condition from the page.
 - Comparing the actual weather condition with the expected condition and outputting whether they match.
   
-This simple agentic AI implementation using Llamma3 reduces manual effort and provides a quick way to verify weather conditions each day.
+This simple agentic AI implementation using Llama3 reduces manual effort and provides a quick way to verify weather conditions each day.
 
 ## Features
 - Automated Weather Retrieval: Opens a browser and fetches the current weather for a given city.
@@ -42,11 +42,11 @@ This simple agentic AI implementation using Llamma3 reduces manual effort and pr
 - Navigate to the directory where the script is saved
 - Run the script using the following command
   ```bash
-  python weather_checker_agent.py "New York" "Cloudy"
+  python weather_check_agent.py "New York" "Cloudy"
   ```
 
 ## Check Output
-- The script will display its thinking process and the actions it's taking
+- The agent will display its thinking process and the actions it's taking
 - It will navigate to Google, search for the weather, and extract the condition
 - It will compare the actual weather with your expected condition
 - It will return a success/failure message based on the comparison
